@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: green;
+}
+#home1{
+    height:425px;
+}
+.links{
+    float:left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: dodgerblue;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position:fixed;
+    top: 10px;
+    right:30px;
+    cursor: pointer;
+    z-index: 10;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior:smooth;
+}
+#img1{
+    height: 225px;
+}
+#img2{
+    height: 300px;
+}
